@@ -8,7 +8,7 @@
 * Windows
 
 Инструкция по установки и экспратации MVP
-* git clone https://github.com/runapravdu/3d-Avatar-Control.git
+** git clone https://github.com/runapravdu/3d-Avatar-Control.git **
 
 Если при запуске проекта возникает ошибка
 <img width="1532" height="843" alt="image" src="https://github.com/user-attachments/assets/0055ba25-36df-4698-a61f-9ffd19974d8d" />
