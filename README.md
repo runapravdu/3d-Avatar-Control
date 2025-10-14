@@ -9,10 +9,9 @@
 
 Инструкция по установки и экспратации MVP
 ```bash
-git clone https://github.com/skill-diver/Unity_MediaPipe_Action_Tracking.git
+git clone https://github.com/runapravdu/3d-Avatar-Control.git
 ```
 
-```bash git clone https://github.com/runapravdu/3d-Avatar-Control.git ```
 
 Если при запуске проекта возникает ошибка
 <img width="1532" height="843" alt="image" src="https://github.com/user-attachments/assets/0055ba25-36df-4698-a61f-9ffd19974d8d" />
