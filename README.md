@@ -9,6 +9,9 @@
 
 Инструкция по экспратации MVP
 Если при запуске проекта возникает ошибка
+<img width="1532" height="843" alt="image" src="https://github.com/user-attachments/assets/0055ba25-36df-4698-a61f-9ffd19974d8d" />
+надо обновить драйверы для совместимости. 
+
 Запуск проетка через сцену Holistic для детализации полного скелета
 <img width="1495" height="858" alt="image" src="https://github.com/user-attachments/assets/0444151a-bf89-41d4-89b5-f5f2bd157018" />
 
