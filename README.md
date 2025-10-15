@@ -19,6 +19,7 @@ git clone https://github.com/runapravdu/3d-Avatar-Control.git
 
 Запуск проетка через сцену Holistic для детализации полного скелета
 <img width="1495" height="858" alt="image" src="https://github.com/user-attachments/assets/0444151a-bf89-41d4-89b5-f5f2bd157018" />
-
+Если нужно убрать экран надо отключить UI
+<img width="228" height="236" alt="image" src="https://github.com/user-attachments/assets/e0010b8f-060d-4302-bbc7-8be5cc0a7dcd" />
 
 
