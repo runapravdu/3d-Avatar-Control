@@ -1,11 +1,6 @@
 using UnityEngine;
 using System.Linq;
 
-// --- ВСТАВЬТЕ СЮДА СТРОКИ 'USING' ИЗ ФАЙЛА ANNOTATION CONTROLLER ---
-// Например:
-// using Mediapipe.Unity.Sample.Common; 
-// -----------------------------------------------------------------
-
 using Mediapipe.Unity.Sample.PoseLandmarkDetection; 
 using Mediapipe.Tasks.Vision.PoseLandmarker;
 using Mediapipe.Tasks.Vision.Core;
