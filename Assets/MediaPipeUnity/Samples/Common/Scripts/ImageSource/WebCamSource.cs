@@ -12,14 +12,17 @@ namespace Mediapipe.Unity
 {
   public class WebCamSource : ImageSource
   {
+    private readonly int _deviceIndexToUse;
+
     private readonly int _preferableDefaultWidth = 1280;
 
     private const string _TAG = nameof(WebCamSource);
 
     private readonly ResolutionStruct[] _defaultAvailableResolutions;
 
-    public WebCamSource(int preferableDefaultWidth, ResolutionStruct[] defaultAvailableResolutions)
+    public WebCamSource(int deviceIndex, int preferableDefaultWidth, ResolutionStruct[] defaultAvailableResolutions)
     {
+      _deviceIndexToUse = deviceIndex;
       _preferableDefaultWidth = preferableDefaultWidth;
       _defaultAvailableResolutions = defaultAvailableResolutions;
     }
@@ -126,7 +129,8 @@ namespace Mediapipe.Unity
 
       if (availableSources != null && availableSources.Length > 0)
       {
-        webCamDevice = availableSources[0];
+       var deviceId = Mathf.Clamp(_deviceIndexToUse, 0, availableSources.Length - 1);
+       webCamDevice = availableSources[deviceId];
       }
     }
 

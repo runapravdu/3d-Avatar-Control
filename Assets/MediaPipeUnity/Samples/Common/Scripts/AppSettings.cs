@@ -26,8 +26,8 @@ namespace Mediapipe.Unity.Sample
     [SerializeField] private int _glogV = Glog.V;
 
     [Header("WebCam Source")]
-    [Tooltip("For the default resolution, the one whose width is closest to this value will be chosen")]
-
+    [Tooltip("For the default resolution, the one whose width is closest to this value will be chosen (0 = 1, 1 = 2 ...)")]
+    [SerializeField] private int _webCamDeviceIndex = 0;
     [SerializeField] private int _preferredDefaultWebCamWidth = 1280;
     [SerializeField] private ImageSource.ResolutionStruct[] _defaultAvailableWebCamResolutions = new ImageSource.ResolutionStruct[] {
       new ImageSource.ResolutionStruct(176, 144, 30),
@@ -71,6 +71,7 @@ namespace Mediapipe.Unity.Sample
     }
 
     public WebCamSource BuildWebCamSource() => new WebCamSource(
+      _webCamDeviceIndex,
       _preferredDefaultWebCamWidth,
       _defaultAvailableWebCamResolutions
     );
