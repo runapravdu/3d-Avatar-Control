@@ -30,7 +30,8 @@ Unity Application Core: получает и обрабатывает данны�
 * https://github.com/google-ai-edge/mediapipe
 * https://github.com/homuler/MediaPipeUnityPlugin?tab=readme-ov-file
 * https://github.com/alecfilios/Unity-Hand-Tracking-Gesture-Recognition-using-Mediapipe
-Использован MediaPipe Framework, написанный на языке C++ и интегрированный в C# для прямого использования в unity,возможные среды выполнения Android,ios,(VR)
+  
+Возможные среды выполнения Android,ios,(VR)
 
 Рекомендации по импорту
 * Важно при использования проета учетная запись должна быть на английском языке
