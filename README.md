@@ -32,6 +32,7 @@ Unity Application Core: получает и обрабатывает данны�
 * https://github.com/alecfilios/Unity-Hand-Tracking-Gesture-Recognition-using-Mediapipe
   
 Возможные среды выполнения Android,ios,(VR)
+Ограничения скелета 3d
 
 Рекомендации по импорту
 * Важно при использования проета учетная запись должна быть на английском языке
