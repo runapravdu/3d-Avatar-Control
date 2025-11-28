@@ -38,7 +38,7 @@ Unity Application Core: получает и обрабатывает данны�
 * Использованная версия Unity 6.000.33f1
 * Windows
 
-Инструкция по установки и экспратации MVP
+Инструкция по установки и эксплуатации MVP
 ```bash
 git clone https://github.com/runapravdu/3d-Avatar-Control.git
 ```
