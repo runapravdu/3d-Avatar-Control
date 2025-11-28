@@ -6,7 +6,7 @@
 
 - Общая архитектура системы и поток данных
 - Обязанности основных компонентов
-- Используемые технологии и фреймворки
+- Используемые источники, технологии и фреймворки
 - Текущий объем реализации и ограничения
 - Установка + рекомендации по импорту
 
@@ -26,8 +26,10 @@ Unity Application Core: получает и обрабатывает данны�
 <img width="1349" height="816" alt="image" src="https://github.com/user-attachments/assets/1329c5b4-cbeb-4630-abc4-c6e3a0702cb2" />
 
 
-
-
+## Источники
+* https://github.com/google-ai-edge/mediapipe
+* https://github.com/homuler/MediaPipeUnityPlugin?tab=readme-ov-file
+* https://github.com/alecfilios/Unity-Hand-Tracking-Gesture-Recognition-using-Mediapipe
 Использован MediaPipe Framework, написанный на языке C++ и интегрированный в C# для прямого использования в unity,возможные среды выполнения Android,ios,(VR)
 
 Рекомендации по импорту
